@@ -94,7 +94,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Authors Info
 
-LinkedIn -[Alex Kiragu: linkedin.com/in/alex-kiragu-754690219]
+LinkedIn -(linkedin.com/in/alex-kiragu-754690219)
 
 Email - (alembakiragu@gmail.com)
 
