@@ -29,3 +29,36 @@
 .logo span{
     color: brown;
 }
+
+.login button a{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    color: darkgrey;
+    border: 0;
+    margin-top: 40px;
+    background-color: brown;
+
+}
+
+.login button a:hover{
+    background-color: rgba(12,3,51,0.3);
+    color: brown;
+    transition: .2s;
+}
+
+.login button a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-text{
+    color: black;
+    
+}
+
+.content h3{
+    font-size: 40px;
+    font-style: italic;
+}
