@@ -9,34 +9,37 @@
     <title>Fitness</title>
 </head>
 <body>
-    <div class="main-1">
-        <video autoplay loop muted play-inline class="back-video">
-            <source src="./assets/Images/training_-_1194 (Original).mp4" type="video/mp4">
-        </video>
-    <nav id="navbar">
-        <div class="logo">
-            <h3>Well<span>fit</span></h3>
-        </div>
-    </nav>
+        <div id="main-1">
+            <video autoplay loop muted play-inline class="back-video">
+                <source src="./assets/Images/training_-_1194 (Original).mp4" type="video/mp4">
+            </video>
+            <nav id="navbar">
+                <div class="logo">
+                    <h3>Well<span>fit</span></h3>
+                </div>
+            </nav>
     <!-- end of navbar section -->
-
-    <div class="content">
-        <div class="main-text">
-            <h1>We Connect with You.</h1>
-            <h1>We Engage with You.</h1>
-            <h1>Into the Healthy World</h1>
+            <div class="content">
+                <div class="main-text">
+                    <h1>We Connect with You.</h1>
+                    <h1>We Engage with You.</h1>
+                    <h1>Into the Healthy World</h1>
+                </div>
+               <button id="buk"><a href="#log">Register</a></button>
+            </div>
         </div>
-        <!-- <button id="buk">Workouts</button> -->
-        <button id="buk"><a href="./workouts.html">Workouts</a></button>
-    </div>
-    </div>
     <!-- content section -->
-    <div class="main-2">
+    <div id="main-2">
         <div class="content-1">
             <h3>Explore our fitness app</h3>
             <p>Wellfit app gives you an easy access to today's most used fitness tips and wearable connections in the fitness and clinical space.</p>
             <button id="explore">Explore</button>
         </div>
+    </div>
+    <!-- json files -->
+    <div class="json">
+        <h2>workouts</h2>
+        <div class="exercise"></div>
     </div>
     <!-- parameter section -->
     <section>
@@ -112,6 +115,23 @@
         </div>
     </div>
     <!-- newsletter section -->
+    <!-- register section -->
+<div id="log">
+    <div class="login-form">
+        <div class="details">
+        <h1>Login</h1>
+        <form  method="post" name="form" onsubmit="return validated()">
+            <p>Email</p>
+            <input autocomplete="off" type="text" name="email" placeholder="Email">
+            <div id="email_error">Please fill your Email</div>
+            <p>Password</p>
+            <input type="text" name="password" placeholder="Password">
+            <div id="email_error">Please fill your Password</div>
+            <button><a href="#main-1">Login</a></button>
+        </form>
+        </div>
+    </div>
+</div>
     <div class="updates">
         <h3>Stay fit & informed</h3>
         <p>Submit to our newsletter to stay updated on all future developments & healthy updates.</p>
@@ -137,6 +157,7 @@
         </div>
     </div>
     </div>
-    <script src="./main.js"></script>
+    <script src="./scripts/login.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.main-1{
+#main-1{
     width: 100%;
     height: 100vh;
     position: relative;
@@ -40,18 +40,42 @@
 }
 
 
+.login button a{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    color: darkgrey;
+    border: 0;
+    margin-top: 40px;
+    background-color: brown;
+
+}
+
+.login button a:hover{
+    background-color: rgba(12,3,51,0.3);
+    color: brown;
+    transition: .2s;
+}
+
+.login button a{
+    text-decoration: none;
+    color: black;
+}
+
+
 .content{
     margin: 120px;
     font-size: 25px;
 
 }
 
-.main-2{
+#main-2{
     text-align: center;
     margin-top: 150px;
 }
 
-.main-2 p{
+#main-2 p{
     font-size: 25px;
     width: 700px;
     margin-left: 450px;
@@ -70,7 +94,7 @@
     font-style: italic;
 }
 
-.main-2 h3{
+#main-2 h3{
     font-size: 40px;
     font-style: italic;
     margin-bottom: 50px;
@@ -85,10 +109,8 @@
     width: 15%;
     border-radius: 10px;
     cursor: pointer;
-    /* color: black; */
     color: darkgrey;
     border: 0;
-    /* background-color: rgba(41, 5, 168, 0.5); */
     margin-top: 40px;
     background-color: brown;
 
@@ -97,7 +119,6 @@
 #buk:hover{
     background-color: rgba(12,3,51,0.3);
     color: brown;
-    /* background-color: brown; */
     transition: .2s;
 }
 
@@ -288,4 +309,89 @@ section{
 
 .news input{
     size: 20px;
+}
+
+/* register section */
+#log{
+    background: url(./assets/Images/pexels-pixabay-416778.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    background-attachment: fixed;
+}
+
+.details{
+    background-color: rgba(100, 100, 200, .35);
+    border-radius: 20px;
+}
+
+.login-form{
+    width: 350px;
+    text-align: center;
+    margin-left: 500px;
+    margin-bottom: 110px;
+    margin-top: 110px;
+    
+}
+
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login-form input{
+    font-size: 16px;
+    width: 90%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgba(300, 300, 200, .40);
+}
+
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 35px;
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    border: 0;
+
+}
+
+.login-form button a{
+    text-decoration: none;
+}
+
+.login-form button:hover{
+    background-color: rgba(250, 250, 250, 0.3);
+    transition: .2s;
+    color: darkgrey;
+}
+
+.login-form #email_error,
+.login-form #pass_error{
+    margin-top: 5px;
+    width: 345;
+    font-size: 18px;
+    color: #c62828;
+    background-color: 255, 0, 0, 0.1;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+
 }
