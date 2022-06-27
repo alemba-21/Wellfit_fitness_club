@@ -39,85 +39,74 @@
     color: brown;
 }
 
-.login button a{
+.main-text{
+    color: black;
+    margin-left: 130px;
+    margin-top: 100px;
+    font-size: 30px;
+    
+}
+
+#buk{
     font-size: 18px;
     font-weight: bold;
+    margin: 130px;
+    margin-left: 270px;
+    padding: 10px;
+    width: 15%;
     border-radius: 10px;
     cursor: pointer;
     color: darkgrey;
     border: 0;
-    margin-top: 40px;
+    margin-top: 60px;
     background-color: brown;
 
 }
 
-.login button a:hover{
+#buk:hover{
     background-color: rgba(12,3,51,0.3);
-    color: brown;
     transition: .2s;
 }
 
-.login button a{
+#buk a{
     text-decoration: none;
     color: black;
 }
 
-.main-text{
-    color: black;
-    
-}
-
-.content h3{
-    font-size: 40px;
-    font-style: italic;
-}
-
-.content-1{
-    margin: 120px;
-    font-size: 25px;
-
-}
 /* json section */
-h2{
-    text-align: center;
-    margin-top: 50px;
+.json h2{
+    text-align: center; 
+    margin-top: 150px;
     font-size: 30px;
 }
 
 .exercise{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    grid-gap: 50px;
-    margin: 50px auto;
-    max-width: 1240px;
-    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px;
+    background-color: rgba(169, 169,169, 0.1);
+    border-radius: 40px;
+    margin-bottom:20px;
 
 }
 
-.exercise{
-    padding: 10px;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-
+#staff{
+    width: 520px;
+    line-height: 30px;
 }
 
-.exercise img{
-    width: 100%;
-    display: block;
+#staff .name{
+    margin-top: 20px;
+    font-size: 30px;
 }
 
-.exercise .title{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
+#staff .description{
+    margin-top: 10px;
+    font-size: 18px;
 }
 
-.exercise .description{
-    padding: 0 20px 20px 20px;
-    line-height: 50px;
-    
-}
+
+
 /* end of json */
 
 
@@ -144,31 +133,6 @@ h2{
 
 }
 
-#buk{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 130px;
-    padding: 10px;
-    width: 15%;
-    border-radius: 10px;
-    cursor: pointer;
-    color: darkgrey;
-    border: 0;
-    margin-top: 40px;
-    background-color: brown;
-
-}
-
-#buk:hover{
-    background-color: rgba(12,3,51,0.3);
-    color: brown;
-    transition: .2s;
-}
-
-#buk a{
-    text-decoration: none;
-    color: black;
-}
 
 
 #explore{

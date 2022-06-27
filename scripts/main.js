@@ -28,11 +28,11 @@ http.onload = function(){
         for(let item of exercise){
             output += `
             <div class="exercise">
-               <p class="name">${item.name}</p>
-               <p class="main">${item.mainMuscles}</p>
-               <p class="secondary">${item.secondaryMuscles}</p>
-               <img src="${item.image}" alt="${item.image}">
-               <p class="description">${item.description}</p>
+                 <div id="staff">
+                    <img src="${item.image}" alt="${item.image}">
+                    <p class="name">${item.name}</p>
+                    <p class="description">${item.description}</p>
+                </div>
             </div>
             `;
         }
