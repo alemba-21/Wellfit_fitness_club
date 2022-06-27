@@ -3,9 +3,9 @@
 ## By Alemba Alex
 
 ## Screenshot
+ 
 ![image](./assets/Images/Screenshot%20from%202022-06-27%2001-04-24.png)
 ![image](./assets/Images/Screenshot%20from%202022-06-27%2001-04-33.png)
-![image](./assets/Images/Screenshot%20from%202022-06-27%2004-27-52.png)
 
 ## Table of Content
 
@@ -66,11 +66,13 @@ As a user of the application you will be able to receive updates and health para
 ****
 
 [Go Back to the top](#Wellfit-fitness-club)
+
 ### Live Link
 
--Click this link to view the application https://alemba-21.github.io/Wellfit_fitness_club/
+-Click this link to view the application: https://alemba-21.github.io/Wellfit_fitness_club/
 
 ### Technology Used
+
 *HTML- Which was used to develope the structure off the project.
 
 *CSS- Which was used to style the User Interface.
@@ -80,6 +82,7 @@ As a user of the application you will be able to receive updates and health para
 [Go Back to the top](#Wellfit-fitness-club)
 
 ## Known Bugs
+
 *There were no bugs discovered.
 
 ## License
