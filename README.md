@@ -32,7 +32,7 @@
 
 <p>This project is about Wellfit club where it has more than one activities in it. It's consist of Gym, Boxing, Spa, Steam-rooms, Swimming pool and Restaurant</p>
 
-[Go Back to the top](#Wellfit fitness club)
+[Go Back to the top](#Wellfit-fitness-club)
 
 ## Features
 
