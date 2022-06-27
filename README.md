@@ -38,7 +38,7 @@
 
 As a user of the application you will be able to receive updates and health parameters.
 
-[Go Back to the top](#Wellfit fitness club)
+[Go Back to the top](#Wellfit-fitness-club)
 
 ## Behaviour Driven Development
 
@@ -47,7 +47,7 @@ As a user of the application you will be able to receive updates and health para
 |Enter your name | Alemba Alex |    |
 |Enter your Email Address |alembakiragu@gmail.com |    |
 
-[Go Back to the top](#Wellfit fitness club)
+[Go Back to the top](#Wellfit-fitness-club)
 
 ### Requirements
 
@@ -66,7 +66,7 @@ As a user of the application you will be able to receive updates and health para
 *Open the index files from the zipped file with any browser.
 ****
 
-[Go Back to the top](#Wellfit fitness club)
+[Go Back to the top](#Wellfit-fitness-club)
 ### Live Link
 
 -Click this link to view the application https://alemba-21.github.io/Wellfit_fitness_club/
@@ -78,7 +78,7 @@ As a user of the application you will be able to receive updates and health para
 
 *JAVASCRIPT -Which was used to give functionality to the project.
 
-[Go Back to the top](#Wellfit fitness club)
+[Go Back to the top](#Wellfit-fitness-club)
 
 ## Known Bugs
 *There were no bugs discovered.
@@ -99,4 +99,4 @@ LinkedIn -(linkedin.com/in/alex-kiragu-754690219)
 
 Email - (alembakiragu@gmail.com)
 
-[Go Back to the top](#Wellfit fitness club)
+[Go Back to the top](#Wellfit-fitness-club)
