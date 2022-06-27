@@ -4,7 +4,8 @@
 
 ## Screenshot
 ![image](./assets/Images/Screenshot%20from%202022-06-27%2001-04-24.png)
-(./assets/Images/Screenshot%20from%202022-06-27%2001-04-33.png)
+![images](./assets/Images/Screenshot%20from%202022-06-27%2001-04-33.png)
+![images](./assets/Images/Screenshot%20from%202022-06-27&2004-27-52.png)
 
 
 ## Table of Content
